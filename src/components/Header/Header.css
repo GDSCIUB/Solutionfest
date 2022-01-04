@@ -1,0 +1,53 @@
+.header-logo > img {
+  height: 50px;
+}
+.MuiPaper-root {
+  background-color: #181d31 !important;
+}
+.MuiBox-root {
+  justify-content: end;
+  color: white;
+}
+.MuiButton-root {
+  color: white !important;
+}
+.sidebarLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 18px;
+}
+.sidebarLinksTag {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 78.8418px;
+  font-weight: bold;
+  width: 180px;
+}
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarLinks {
+  display: flex;
+  list-style: none;
+}
+.navbarLinksTag {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.navbarLinksTag:hover {
+  color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
