@@ -5,7 +5,11 @@
 .sponsors_head {
   padding: 100px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+.sponsors_head_content > p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 .sponsors_head_content > button {
   padding: 15px 25px;
@@ -17,6 +21,10 @@
   font-weight: bold;
   color: white;
   background-color: rgb(160, 18, 84);
+}
+.sponsors_head_img > img {
+  width: 450px;
+  margin-left: 100px;
 }
 .our_sponsors {
   text-align: center;
@@ -36,11 +44,17 @@
 /* Mobile View*/
 @media only screen and (max-width: 425px) {
   .sponsors_head {
+    flex-direction: column;
     padding: 30px;
   }
   .sponsors_head_content > h1 {
     font-size: 22px;
     line-height: 1.8;
+  }
+  .sponsors_head_img > img {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
   }
   .our_sponsors {
     padding: 30px;

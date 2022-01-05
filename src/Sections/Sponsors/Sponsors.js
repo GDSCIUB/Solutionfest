@@ -1,4 +1,5 @@
 import React from 'react';
+import sponsorCover from '../../assets/sponsor-cover.png';
 import './Sponsors.css';
 
 const Sponsors = () => {
@@ -11,7 +12,9 @@ const Sponsors = () => {
                     <p>Interested in sponsoring? Email us at </p>
                     <button>Become a sponsor</button>
                 </div>
-                <div className='sponsors_head_img'></div>
+                <div className='sponsors_head_img'>
+                    <img src={sponsorCover} alt="" />
+                </div>
             </div>
             <div className='our_sponsors'>
                 <h2>Our sponsors</h2>
