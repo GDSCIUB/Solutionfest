@@ -1,18 +1,19 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <div>
-                <h1>Build</h1>
+        <div className='home'>
+            <div className='home_header'>
+                <h2>Build</h2>
                 <h1>Crack The Solution.</h1>
-                <p>Virtual Hackathon - Dates Expected: Febuary 15 - 28</p>
+                <p>Virtual Hackathon - Expected Dates: Febuary 15 - 28 | <span>GDSC IUB x GDSC BULC</span></p>
             </div>
-            <div>
-                <button>Go to dashboard</button>
-                <button>Join Our Discord Server</button>
+            <div className='home_buttons'>
+                <button className='home_button_devfolio'>Go to dashboard</button>
+                <button className='home_button_discord'>Join Our Discord Server</button>
             </div>
-            <div></div>
+            <div className='home_img'></div>
         </div>
     )
 }

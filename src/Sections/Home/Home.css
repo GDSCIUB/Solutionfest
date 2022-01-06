@@ -1,0 +1,59 @@
+.home {
+  background-color: #181d31;
+  color: white;
+  padding: 100px;
+}
+.home_header h1,
+h2 {
+  font-size: 70px;
+}
+.home_header h2 {
+  margin-bottom: -20px;
+}
+.home_header p {
+  font-size: 18px;
+}
+.home_header p span {
+  font-weight: 600;
+}
+.home_buttons {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.home_buttons button {
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.home_button_devfolio {
+  background-color: rgb(32 33 36);
+}
+.home_button_discord {
+  background-color: rgb(24, 50, 73);
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 450px) {
+  .home {
+    padding: 70px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_header h1,
+  h2 {
+    font-size: 30px;
+  }
+  .home_header h2 {
+    margin: 0px;
+  }
+  .home_buttons {
+    margin-top: 20px;
+  }
+}
