@@ -14,11 +14,11 @@ function App() {
         <Header />
       </header>
       <Home />
-      {/* <About />
+      <About />
       <Prizes />
       <Sponsors />
       <Team />
-      <Faqs /> */}
+      <Faqs />
     </div>
   );
 }

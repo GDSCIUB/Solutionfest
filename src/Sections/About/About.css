@@ -1,0 +1,119 @@
+.about {
+  background: linear-gradient(#181d31, #320e61);
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_head {
+  width: 500px;
+}
+.about_head h2 {
+  font-size: 48px;
+}
+.about_head p {
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.hackathon_about {
+  padding: 100px;
+}
+.hackathon_about h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.theme_head {
+  width: 50%;
+}
+.hackathon_judges {
+  text-align: center;
+}
+.hackathon_judges h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.hackathon_mentors {
+  text-align: center;
+}
+.hackathon_mentors h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.hackathon_platform {
+  text-align: center;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.hackathon_platform button {
+  padding: 15px 25px;
+  margin-top: 8px;
+  border-radius: 999px;
+  cursor: pointer;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(24, 50, 73);
+}
+.hackthon_speakers {
+  text-align: center;
+  padding-top: 50px;
+}
+.hackathon_workshops {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 450px) {
+  .about_head {
+    width: 300px;
+  }
+  .about_head h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .hackathon_about {
+    padding: 100px 0px 0px 0px;
+    width: 300px;
+  }
+  .theme_head {
+    width: 300px;
+    margin-top: 50px;
+  }
+  .theme_head h1 {
+    font-size: 26px;
+  }
+  .hackathon_judges {
+    width: 300px;
+  }
+  .hackathon_judges h2 {
+    font-size: 26px;
+  }
+  .hackathon_mentors {
+    width: 300px;
+  }
+  .hackathon_mentors h2 {
+    font-size: 26px;
+  }
+  .hackathon_platform {
+    width: 300px;
+  }
+  .hackathon_platform h1 {
+    font-size: 26px;
+  }
+  .hackthon_speakers {
+    width: 300px;
+  }
+  .hackthon_speakers h1 {
+    font-size: 26px;
+  }
+}
