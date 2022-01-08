@@ -38,7 +38,7 @@ const About = () => {
             <div className='hackathon_platform'>
                 <h1>Join Our Discord Server</h1>
                 <p>Don’t miss a single tinkle. Join our official discord server to stay up top of the latest announcements and sessions, participate in fun games and challenges, and stay connected to fellow hackers.</p>
-                <button>Got to Discord</button>
+                <button>Go To Discord</button>
             </div>
             <div className='hackthon_speakers'>
                 <h1>Speakers</h1>
