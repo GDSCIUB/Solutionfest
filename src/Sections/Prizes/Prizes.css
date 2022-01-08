@@ -4,3 +4,13 @@
   text-align: center;
   padding: 100px;
 }
+
+/* Mobile View*/
+@media only screen and (max-width: 425px) {
+  .prizes {
+    padding: 30px;
+  }
+  .prizes > h1 {
+    font-size: 28px;
+  }
+}

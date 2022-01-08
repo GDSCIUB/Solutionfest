@@ -69,7 +69,6 @@ const Header = () => {
                             <li><a href="#About" className='navbarLinksTag'>About</a></li>
                             <li><a href="#Prizes" className='navbarLinksTag'>Prizes</a></li>
                             <li><a href="#Sponsors" className='navbarLinksTag'>Sponsors</a></li>
-                            <li><a href="#Team" className='navbarLinksTag'>Team</a></li>
                             <li><a href="#Faqs" className='navbarLinksTag'>Faqs</a></li>
                         </ul>
                     </nav>

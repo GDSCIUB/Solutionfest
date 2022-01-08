@@ -74,6 +74,9 @@
 
 /* Mobile View*/
 @media only screen and (max-width: 450px) {
+  .about {
+    padding: 30px;
+  }
   .about_head {
     width: 300px;
   }
@@ -83,7 +86,6 @@
   }
   .hackathon_about {
     padding: 100px 0px 0px 0px;
-    width: 300px;
   }
   .theme_head {
     width: 300px;
@@ -92,28 +94,22 @@
   .theme_head h1 {
     font-size: 26px;
   }
-  .hackathon_judges {
+  .hackathon_platform {
     width: 300px;
   }
   .hackathon_judges h2 {
     font-size: 26px;
   }
-  .hackathon_mentors {
-    width: 300px;
-  }
   .hackathon_mentors h2 {
     font-size: 26px;
-  }
-  .hackathon_platform {
-    width: 300px;
   }
   .hackathon_platform h1 {
     font-size: 26px;
   }
-  .hackthon_speakers {
-    width: 300px;
-  }
   .hackthon_speakers h1 {
+    font-size: 26px;
+  }
+  .hackathon_workshops > h1 {
     font-size: 26px;
   }
 }

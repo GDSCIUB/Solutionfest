@@ -3,6 +3,7 @@
 }
 .MuiPaper-root {
   background-color: #181d31 !important;
+  padding: 0px 100px;
 }
 .MuiBox-root {
   justify-content: end;
@@ -20,7 +21,6 @@
 .sidebarLinksTag {
   color: white;
   text-decoration: none;
-  border: 1px solid white;
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -40,7 +40,7 @@
   color: white;
   text-decoration: none;
   padding: 10px 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .navbarLinksTag:hover {
   color: tomato;
@@ -49,5 +49,8 @@
 @media only screen and (max-width: 600px) {
   .navbar {
     display: none;
+  }
+  .MuiPaper-root {
+    padding: 0px 10px;
   }
 }

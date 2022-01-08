@@ -5,7 +5,6 @@ import Faqs from './Sections/Faqs/Faqs';
 import Home from './Sections/Home/Home';
 import Prizes from './Sections/Prizes/Prizes';
 import Sponsors from './Sections/Sponsors/Sponsors';
-import Team from './Sections/Team/Team';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <About />
       <Prizes />
       <Sponsors />
-      <Team />
       <Faqs />
     </div>
   );
