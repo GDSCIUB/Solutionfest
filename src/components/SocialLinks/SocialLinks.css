@@ -1,0 +1,7 @@
+.social > a {
+  font-size: 20px;
+  padding: 10px;
+}
+.svg-inline--fa:hover {
+  color: tomato !important;
+}

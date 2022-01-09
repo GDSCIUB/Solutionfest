@@ -1,0 +1,25 @@
+.footer {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer_head > img {
+  width: 100px;
+}
+.footer_head > p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+.footer_policy > div > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.footer_policy > div > a:hover {
+  color: tomato;
+}

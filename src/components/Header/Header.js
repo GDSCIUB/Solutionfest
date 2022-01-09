@@ -8,6 +8,7 @@ import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import MenuIcon from '@mui/icons-material/Menu';
 
 import './Header.css';
+import SocialLinks from '../SocialLinks/SocialLinks';
 
 const Header = () => {
     const [state, setState] = React.useState({ right: false });
@@ -37,6 +38,7 @@ const Header = () => {
                 <a href='#Sponsors' className='sidebarLinksTag'>Sponsors</a>
                 <a href='#Team' className='sidebarLinksTag'>Team</a>
                 <a href='#Faqs' className='sidebarLinksTag'>Faqs</a>
+                <SocialLinks />
             </div>
         </div>
     )

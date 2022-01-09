@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import About from './Sections/About/About';
 import Faqs from './Sections/Faqs/Faqs';
+import Footer from './Sections/Footer/Footer';
 import Home from './Sections/Home/Home';
 import Prizes from './Sections/Prizes/Prizes';
 import Sponsors from './Sections/Sponsors/Sponsors';
@@ -17,6 +18,7 @@ function App() {
       <Prizes />
       <Sponsors />
       <Faqs />
+      <Footer />
     </div>
   );
 }
