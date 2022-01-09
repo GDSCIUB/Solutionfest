@@ -1,0 +1,39 @@
+.faqs {
+  background: #320e61;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.faq {
+  background-color: rgb(75, 21, 126) !important;
+}
+.faq-section {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #320e61;
+}
+.faq-heading span,
+svg {
+  color: white !important;
+}
+.show-faq-text {
+  color: white !important;
+}
+.show {
+  padding-bottom: 10px !important;
+}
+.show-faq-2 {
+  height: auto !important;
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 425px) {
+  .faqs {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
