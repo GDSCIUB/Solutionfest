@@ -2,6 +2,11 @@
   background-color: #181d31;
   color: white;
   padding: 100px;
+  display: flex;
+}
+.home_img > img {
+  width: 500px;
+  margin-top: 50px;
 }
 .home_header h1,
 h2 {
@@ -19,9 +24,12 @@ h2 {
 .home_buttons {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  line-height: 2;
 }
-.home_buttons button {
+.home_buttons > a {
+  text-decoration: none;
+}
+.home_buttons > a > button {
   padding: 10px;
   margin-top: 8px;
   border-radius: 5px;
@@ -29,12 +37,24 @@ h2 {
   font-size: 18px;
   font-weight: bold;
   color: white;
+  width: 300px;
+}
+.home_buttons > a > button:hover {
+  opacity: 0.8;
 }
 .home_button_devfolio {
   background-color: rgb(32 33 36);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_button_devfolio > img {
+  height: 25px;
 }
 .home_button_discord {
   background-color: rgb(24, 50, 73);
+  cursor: pointer;
 }
 
 /* Mobile View*/
