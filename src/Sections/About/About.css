@@ -6,8 +6,12 @@
   flex-direction: column;
   align-items: center;
 }
+.about_sec {
+  display: flex;
+}
 .about_head {
   width: 500px;
+  margin-right: 100px;
 }
 .about_head h2 {
   font-size: 48px;
@@ -18,14 +22,34 @@
   line-height: 24px;
 }
 .hackathon_about {
-  padding: 100px;
+  display: flex;
+  padding: 200px;
+  align-items: center;
+}
+.hackathon_about_img {
+  margin-right: 100px;
+}
+.hackathon_about_img > img {
+  height: 180px;
 }
 .hackathon_about h3 {
   font-weight: 500;
   margin-bottom: 10px;
 }
+.hackathon_theme {
+  display: flex;
+  align-items: center;
+}
 .theme_head {
-  width: 50%;
+  margin-right: 100px;
+}
+.theme_head > h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+.theme_head > p {
+  font-size: 18px;
+  line-height: 1.6;
 }
 .hackathon_judges {
   text-align: center;
@@ -77,8 +101,16 @@
   .about {
     padding: 30px;
   }
+  .about_sec {
+    flex-direction: column;
+  }
+  .about_img img {
+    width: 300px;
+    margin-top: 50px;
+  }
   .about_head {
     width: 300px;
+    margin-right: 0px;
   }
   .about_head h2 {
     font-size: 26px;
@@ -86,13 +118,26 @@
   }
   .hackathon_about {
     padding: 100px 0px 0px 0px;
+    flex-direction: column;
+  }
+  .hackathon_about_img {
+    margin-right: 0px;
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  .hackathon_theme {
+    flex-direction: column;
   }
   .theme_head {
     width: 300px;
     margin-top: 50px;
+    margin-right: 0px;
   }
   .theme_head h1 {
     font-size: 26px;
+  }
+  .theme_img img {
+    width: 300px;
   }
   .hackathon_platform {
     width: 300px;
