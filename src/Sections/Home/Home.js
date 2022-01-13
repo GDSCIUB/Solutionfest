@@ -4,6 +4,7 @@ import SocialLinks from '../../components/SocialLinks/SocialLinks';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import DevfolioLogo from '../../assets/Devfolio_Logo-White.png';
+import ReactTypingEffect from 'react-typing-effect';
 
 import './Home.css';
 
@@ -12,7 +13,14 @@ const Home = () => {
         <div className='home'>
             <div>
                 <div className='home_header'>
-                    <h2>Build</h2>
+                    <div className='typing_effect'>
+                        <ReactTypingEffect
+                            text={["Innovate", "Design", "Build", "Challenge", "Learn"]}
+                            speed="300ms"
+                            eraseSpeed="300ms"
+                            typingDelay="1000ms"
+                        />
+                    </div>
                     <h1>Crack The Solution.</h1>
                     <p>Virtual Hackathon - Expected Dates: Febuary 15 - 28 | <span>GDSC IUB x GDSC BULC</span></p>
                 </div>

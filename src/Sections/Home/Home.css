@@ -1,19 +1,19 @@
 .home {
   background-color: #181d31;
   color: white;
-  padding: 100px;
+  padding: 150px 100px;
   display: flex;
 }
 .home_img > img {
   width: 500px;
   margin-top: 50px;
 }
-.home_header h1,
-h2 {
+.home_header h1 {
   font-size: 70px;
 }
-.home_header h2 {
-  margin-bottom: -20px;
+.typing_effect {
+  font-size: 70px;
+  font-weight: bold;
 }
 .home_header p {
   font-size: 18px;
@@ -60,15 +60,17 @@ h2 {
 /* Mobile View*/
 @media only screen and (max-width: 450px) {
   .home {
-    padding: 70px 30px;
+    padding: 120px 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .home_header h1,
-  h2 {
+  .home_header h1 {
     font-size: 30px;
+  }
+  .typing_effect {
+    font-size: 30px !important;
   }
   .home_header h2 {
     margin: 0px;
