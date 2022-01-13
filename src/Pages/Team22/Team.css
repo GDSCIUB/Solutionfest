@@ -1,0 +1,59 @@
+.team {
+  padding: 100px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamCards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+}
+.teamCard {
+  margin: 10px;
+  background-color: rgb(62, 64, 73);
+  width: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.team__details {
+  padding: 10px;
+  text-align: center;
+}
+.team__details > h1 {
+  font-size: 25px;
+}
+.team__details > h2 {
+  font-size: 22px;
+}
+.teamCard > .MuiAvatar-root {
+  height: 200px;
+  width: 200px;
+}
+
+.team__social > a {
+  color: white;
+  padding: 10px;
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 450px) {
+  .team {
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .teamCards {
+    display: flex;
+    flex-direction: column;
+  }
+}

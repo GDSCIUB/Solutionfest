@@ -6,6 +6,8 @@ import Footer from './Sections/Footer/Footer';
 import Home from './Sections/Home/Home';
 import Prizes from './Sections/Prizes/Prizes';
 import Sponsors from './Sections/Sponsors/Sponsors';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Team22 from './Pages/Team22/Team22';
 
 function App() {
   return (
@@ -13,12 +15,27 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <Home />
-      <About />
-      <Prizes />
-      <Sponsors />
-      <Faqs />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Home />
+              <About />
+              <Prizes />
+              <Sponsors />
+              <Faqs />
+            </>
+          }></Route>
+          <Route path="/Team2022" element={
+            <>
+              <Team22 />
+            </>
+          }></Route>
+        </Routes>
+      </BrowserRouter>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
