@@ -33,11 +33,20 @@ const Header = () => {
         >
             <div className='sidebarLinks'>
                 <a href='/' className='sidebarLinksTag'>Home</a>
-                <a href='#About' className='sidebarLinksTag'>About</a>
-                <a href='#Prizes' className='sidebarLinksTag'>Prizes</a>
-                <a href='#Sponsors' className='sidebarLinksTag'>Sponsors</a>
-                <a href='#Team' className='sidebarLinksTag'>Team</a>
-                <a href='#Faqs' className='sidebarLinksTag'>Faqs</a>
+                <a href='/#About' className='sidebarLinksTag'>About</a>
+                <a href='/#Prizes' className='sidebarLinksTag'>Prizes</a>
+                <a href='/#Sponsors' className='sidebarLinksTag'>Sponsors</a>
+                <a href='/Team2022' className='sidebarLinksTag'>Team</a>
+                <a href='/#Faqs' className='sidebarLinksTag'>Faqs</a>
+                <a
+                    href='https://forms.gle/UVVcAG1xtDqPANn38'
+                    className='sidebarLinksTag' target="_blank"
+                    rel="noreferrer">
+                    Join our Team
+                </a>
+                <a href='/Code-of-conduct' className='sidebarLinksTag'>Code of Conduct</a>
+                <a href='/Privacy-policy' className='sidebarLinksTag'>Privacy Policy</a>
+                <a href='/Terms-of-use' className='sidebarLinksTag'>Terms of Use</a>
                 <SocialLinks />
             </div>
         </div>
@@ -68,10 +77,10 @@ const Header = () => {
                     <nav className='navbar'>
                         <ul className='navbarLinks'>
                             <li><a href="/" className='navbarLinksTag'>Home</a></li>
-                            <li><a href="#About" className='navbarLinksTag'>About</a></li>
-                            <li><a href="#Prizes" className='navbarLinksTag'>Prizes</a></li>
-                            <li><a href="#Sponsors" className='navbarLinksTag'>Sponsors</a></li>
-                            <li><a href="#Faqs" className='navbarLinksTag'>Faqs</a></li>
+                            <li><a href="/#About" className='navbarLinksTag'>About</a></li>
+                            <li><a href="/#Prizes" className='navbarLinksTag'>Prizes</a></li>
+                            <li><a href="/#Sponsors" className='navbarLinksTag'>Sponsors</a></li>
+                            <li><a href="/#Faqs" className='navbarLinksTag'>Faqs</a></li>
                         </ul>
                     </nav>
                 </Toolbar>

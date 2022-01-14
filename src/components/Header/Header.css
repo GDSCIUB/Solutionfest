@@ -22,7 +22,7 @@
   color: white;
   text-decoration: none;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
   border-radius: 78.8418px;
   font-weight: bold;
@@ -46,7 +46,8 @@
   color: tomato;
 }
 
-@media only screen and (max-width: 600px) {
+/* Mobile View*/
+@media only screen and (max-width: 450px) {
   .navbar {
     display: none;
   }
