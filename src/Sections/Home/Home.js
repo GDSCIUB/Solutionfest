@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import DevfolioLogo from '../../assets/Devfolio_Logo-White.png';
 import ReactTypingEffect from 'react-typing-effect';
-import { SOCIALS } from '../../module/Gernal';
+import { SOCIALS, EVENT } from '../../module/Gernal';
 
 import './Home.css';
 
@@ -22,8 +22,8 @@ const Home = () => {
                             typingDelay="1000ms"
                         />
                     </div>
-                    <h1>Crack The Solution.</h1>
-                    <p>Virtual Hackathon - Expected Dates: Febuary 15 - 28 | <span>GDSC IUB x GDSC BULC</span></p>
+                    <h1>{EVENT.name}.</h1>
+                    <p>Virtual Hackathon · {EVENT.dates} · <span>GDSC Pakistan</span></p>
                 </div>
                 <div className='home_buttons'>
                     <a href={SOCIALS.devpost} rel="noreferrer" target='_blank'>

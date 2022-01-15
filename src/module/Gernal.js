@@ -1,19 +1,24 @@
+const EVENT = {
+    name: "SolutionFest",
+    dates: "March 05 - 19, 2022"
+}
+
 const SOCIALS = {
-    instagram: "https://www.instagram.com/crack_the_solution/",
-    discord: "https://discord.gg/NmXeaxxu",
-    linkedin: "https://www.linkedin.com/company/crackthesolution",
-    facebook: "https://www.facebook.com/crackthesolution/",
-    twitter: "https://twitter.com/cracksolution_",
-    devpost: "",
+    instagram: "https://www.instagram.com/solutionfestpk/",
+    discord: "https://discord.gg/y7UpF8Zn",
+    linkedin: "https://www.linkedin.com/company/solutionfest",
+    facebook: "https://www.facebook.com/solutionfestpk/",
+    twitter: "https://twitter.com/solutionfest",
+    devpost: "#",
     email: "mailto:crackthesolution@gmail.com",
     mail: "crackthesolution@gmail.com"
 };
 
 const FORMS = {
-    VOLUNTEERING_FORM: "",
-    SPEAKER_FORM: "",
-    MENTOR_FORM: "",
-    PARTNER_FORM: ""
+    VOLUNTEERING_FORM: "#",
+    SPEAKER_FORM: "#",
+    MENTOR_FORM: "#",
+    PARTNER_FORM: "#"
 };
 
 const Session = [
@@ -90,6 +95,7 @@ const sponsorLogos = [
 ];
 
 export {
+    EVENT,
     SOCIALS,
     FORMS,
     Session,

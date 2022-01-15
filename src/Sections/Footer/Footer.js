@@ -1,7 +1,7 @@
 import React from 'react';
 import gdscLogo from '../../assets/gdsc-logo-white.png';
 import SocialLinks from '../../components/SocialLinks/SocialLinks';
-import { FORMS } from '../../module/Gernal';
+import { EVENT, FORMS } from '../../module/Gernal';
 import './Footer.css';
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='footer_head'>
                 <img src={gdscLogo} alt="" />
-                <p>#CrackTheSolution | What will you create to be put in?</p>
+                <p>#{EVENT.name} | What will you create to be put in?</p>
                 <div className='footer_policy'>
                     <div>
                         <a href="/Team2022">Meet our Team</a>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <a href={FORMS.PARTNER_FORM}>Become Community Partner</a>
                     </div>
                     <div>
-                        <a href='/#about'>About Crack The Solution</a>
+                        <a href='/#about'>About {EVENT.name}</a>
                         <span>&nbsp;|&nbsp;</span>
                         <a href='/Code-of-Conduct'>Code of Conduct</a>
                     </div>
