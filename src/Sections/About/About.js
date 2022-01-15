@@ -19,7 +19,6 @@ const About = () => {
                 </div>
             </div>
             <div className='about_hackathon'>
-                <div className='hackaton_img'></div>
                 <div className='hackathon_about'>
                     <div className='hackathon_about_img'>
                         <img src={logo} alt="" />

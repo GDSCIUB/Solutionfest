@@ -3,6 +3,7 @@
   color: white;
   padding: 150px 100px;
   display: flex;
+  justify-content: space-between;
 }
 .home_img > img {
   width: 500px;

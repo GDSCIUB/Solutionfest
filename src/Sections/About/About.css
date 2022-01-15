@@ -19,7 +19,8 @@
 .about_head p {
   margin-top: 20px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.2;
+  font-size: 18px;
 }
 .hackathon_about {
   display: flex;
@@ -32,9 +33,14 @@
 .hackathon_about_img > img {
   height: 180px;
 }
-.hackathon_about h3 {
+.hackathon_about_head > h3 {
   font-weight: 500;
   margin-bottom: 10px;
+  font-size: 22px;
+}
+.hackathon_about_head > p {
+  font-size: 18px;
+  line-height: 1.2;
 }
 .hackathon_theme {
   display: flex;
@@ -76,7 +82,11 @@
   align-items: center;
   padding-top: 100px;
 }
-.hackathon_platform button {
+.hackathon_platform > p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.hackathon_platform > a > button {
   padding: 15px 25px;
   margin-top: 8px;
   border-radius: 999px;
