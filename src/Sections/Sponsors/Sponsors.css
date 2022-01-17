@@ -11,7 +11,7 @@
   font-size: 18px;
   line-height: 1.5;
 }
-.sponsors_head_content > button {
+.sponsors_head_content > a > button {
   padding: 15px 25px;
   margin-top: 20px;
   border-radius: 999px;

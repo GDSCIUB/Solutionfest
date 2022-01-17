@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import DevfolioLogo from '../../assets/Devfolio_Logo-White.png';
 import ReactTypingEffect from 'react-typing-effect';
+import { SOCIALS } from '../../module/Gernal';
 
 import './Home.css';
 
@@ -25,12 +26,12 @@ const Home = () => {
                     <p>Virtual Hackathon - Expected Dates: Febuary 15 - 28 | <span>GDSC IUB x GDSC BULC</span></p>
                 </div>
                 <div className='home_buttons'>
-                    <a href="/" target='_blank'>
+                    <a href={SOCIALS.devpost} rel="noreferrer" target='_blank'>
                         <button className='home_button_devfolio'>
                             <img src={DevfolioLogo} alt="" />&nbsp;Go to dashboard
                         </button>
                     </a>
-                    <a href="https://discord.gg/NmXeaxxu" rel="noreferrer" target="_blank">
+                    <a href={SOCIALS.discord} rel="noreferrer" target="_blank">
                         <button className='home_button_discord'>
                             <FontAwesomeIcon icon={faDiscord} /> Join Our Discord Server
                         </button>

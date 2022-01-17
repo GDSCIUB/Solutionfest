@@ -1,6 +1,7 @@
 import React from 'react';
 import gdscLogo from '../../assets/gdsc-logo-white.png';
 import SocialLinks from '../../components/SocialLinks/SocialLinks';
+import { FORMS } from '../../module/Gernal';
 import './Footer.css';
 
 const Footer = () => {
@@ -13,7 +14,14 @@ const Footer = () => {
                     <div>
                         <a href="/Team2022">Meet our Team</a>
                         <span>&nbsp;|&nbsp;</span>
-                        <a href="/">Join our Team</a>
+                        <a href={FORMS.VOLUNTEERING_FORM}>Join our Team (Volunteer)</a>
+                    </div>
+                    <div>
+                        <a href={FORMS.SPEAKER_FORM}>Become Speaker</a>
+                        <span>&nbsp;|&nbsp;</span>
+                        <a href={FORMS.MENTOR_FORM}>Become Mentor</a>
+                        <span>&nbsp;|&nbsp;</span>
+                        <a href={FORMS.PARTNER_FORM}>Become Community Partner</a>
                     </div>
                     <div>
                         <a href='/#about'>About Crack The Solution</a>

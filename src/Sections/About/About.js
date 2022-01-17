@@ -2,6 +2,7 @@ import React from 'react';
 import cover1 from '../../assets/About-Cover-1.png';
 import logo from '../../assets/logo.png';
 import sdgWheel from '../../assets/sdg-wheel.png';
+import { SOCIALS } from '../../module/Gernal';
 import './About.css';
 
 const About = () => {
@@ -49,7 +50,9 @@ const About = () => {
             <div className='hackathon_platform'>
                 <h1>Join Our Discord Server</h1>
                 <p>Don’t miss a single tinkle. Join our official discord server to stay up top of the latest announcements and sessions, participate in fun games and challenges, and stay connected to fellow hackers.</p>
-                <button>Go To Discord</button>
+                <a href={SOCIALS.discord} target="_blank" rel="noreferrer">
+                    <button>Go To Discord</button>
+                </a>
             </div>
             <div className='hackthon_speakers'>
                 <h1>Speakers</h1>
