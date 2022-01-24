@@ -56,7 +56,9 @@ const Header = () => {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <div className='header-logo'>
-                        <img src={logo} alt="" />
+                        <a href="/">
+                            <img src={logo} alt="" />
+                        </a>
                     </div>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

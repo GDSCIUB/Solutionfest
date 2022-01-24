@@ -20,18 +20,11 @@ const Footer = () => {
                         <a href={FORMS.SPEAKER_FORM}>Become Speaker</a>
                         <span>&nbsp;|&nbsp;</span>
                         <a href={FORMS.MENTOR_FORM}>Become Mentor</a>
-                        <span>&nbsp;|&nbsp;</span>
-                        <a href={FORMS.PARTNER_FORM}>Become Community Partner</a>
                     </div>
                     <div>
                         <a href='/#about'>About {EVENT.name}</a>
                         <span>&nbsp;|&nbsp;</span>
                         <a href='/Code-of-Conduct'>Code of Conduct</a>
-                    </div>
-                    <div>
-                        <a href='/Privacy-Policy'>Privacy Policy</a>
-                        <span>&nbsp;|&nbsp;</span>
-                        <a href='/Terms-of-use'>Terms of Use</a>
                     </div>
                 </div>
                 <div className='footer_social'>

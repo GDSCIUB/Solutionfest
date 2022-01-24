@@ -10,12 +10,11 @@
 .teamCards {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 330px 330px 330px;
+  grid-template-columns: 300px 300px 300px 300px;
 }
 .teamCard {
   margin: 10px;
   background-color: rgb(62, 64, 73);
-  width: 250px;
   padding: 30px;
   border-radius: 10px;
   display: flex;
