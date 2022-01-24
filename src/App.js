@@ -8,6 +8,7 @@ import Prizes from './Sections/Prizes/Prizes';
 import Sponsors from './Sections/Sponsors/Sponsors';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Team22 from './Pages/Team22/Team22';
+import CodeOfConduct from './Pages/Code of Conduct/CodeOfConduct';
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
           <Route path="/Team2022" element={
             <>
               <Team22 />
+            </>
+          }></Route>
+          <Route path="/Code-of-Conduct" element={
+            <>
+              <CodeOfConduct />
             </>
           }></Route>
         </Routes>

@@ -1,0 +1,41 @@
+.codeofconduct {
+  margin-top: 60px;
+}
+.coc-header {
+  background-color: #181d31;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.hackathon-coc {
+  padding: 0px 200px;
+  background-color: #504f4f;
+  color: white;
+}
+.hackathon-coc > h2 {
+  font-size: 32px;
+  padding: 50px;
+}
+.hackathon-coc > p {
+  font-size: 20px;
+}
+.hackathon-coc {
+  text-align: center;
+}
+.coc-version > ul > li {
+  margin-left: 100px;
+  text-align: left;
+  font-size: 18px;
+}
+.coc-version {
+  text-align: left;
+  padding: 30px 0px;
+}
+.coc-version > h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.coc-version > p {
+  font-size: 18px;
+}
