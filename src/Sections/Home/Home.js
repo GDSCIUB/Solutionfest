@@ -28,7 +28,7 @@ const Home = () => {
                 <div className='home_buttons'>
                     <a href={SOCIALS.devpost} rel="noreferrer" target='_blank'>
                         <button className='home_button_devfolio'>
-                            <img src={DevfolioLogo} alt="" />&nbsp;Go to dashboard
+                            <img src={DevfolioLogo} alt="" />&nbsp;Participate - Apply Now
                         </button>
                     </a>
                     <a href={SOCIALS.discord} rel="noreferrer" target="_blank">

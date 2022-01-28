@@ -24,14 +24,14 @@
 }
 .hackathon_about {
   display: flex;
-  padding: 200px;
+  padding: 200px 100px;
   align-items: center;
 }
 .hackathon_about_img {
   margin-right: 100px;
 }
 .hackathon_about_img > img {
-  height: 180px;
+  height: 250px;
 }
 .hackathon_about_head > h3 {
   font-weight: 500;

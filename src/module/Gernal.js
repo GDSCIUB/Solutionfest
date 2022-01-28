@@ -5,20 +5,19 @@ const EVENT = {
 
 const SOCIALS = {
     instagram: "https://www.instagram.com/solutionfestpk/",
-    discord: "https://discord.gg/y7UpF8Zn",
+    discord: "https://discord.gg/zUMyXh59D4",
     linkedin: "https://www.linkedin.com/company/solutionfest",
     facebook: "https://www.facebook.com/solutionfestpk/",
     twitter: "https://twitter.com/solutionfest",
-    devpost: "#",
-    email: "mailto:crackthesolution@gmail.com",
-    mail: "crackthesolution@gmail.com"
+    devpost: "https://forms.gle/8THSgXazwNZxHSi66",
+    email: "mailto:sponsors@solutionfest.tech",
+    mail: "sponsors@solutionfest.tech"
 };
 
 const FORMS = {
-    VOLUNTEERING_FORM: "#",
-    SPEAKER_FORM: "#",
-    MENTOR_FORM: "#",
-    PARTNER_FORM: "#"
+    VOLUNTEERING_FORM: "https://forms.gle/vG4zwEA7M2AuaaHa8",
+    SPEAKER_FORM: "https://forms.gle/udDxfB1MLFGn2Wpw7",
+    MENTOR_FORM: "https://forms.gle/av7SC1TZNLmKePHg7"
 };
 
 const Session = [

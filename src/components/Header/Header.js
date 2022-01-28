@@ -45,8 +45,6 @@ const Header = () => {
                     Join our Team
                 </a>
                 <a href='/Code-of-conduct' className='sidebarLinksTag'>Code of Conduct</a>
-                <a href='/Privacy-policy' className='sidebarLinksTag'>Privacy Policy</a>
-                <a href='/Terms-of-use' className='sidebarLinksTag'>Terms of Use</a>
                 <SocialLinks />
             </div>
         </div>
