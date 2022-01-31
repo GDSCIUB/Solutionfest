@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-// import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { SOCIALS } from '../../module/Gernal';
 import "./SocialLinks.css";
 
@@ -21,9 +21,9 @@ const SocialLinks = () => {
             <a href={SOCIALS.twitter} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter} />
             </a>
-            {/* <a href={SOCIALS.discord} target="_blank" rel="noreferrer">
+            <a href={SOCIALS.discord} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faDiscord} />
-            </a> */}
+            </a>
         </div>
     )
 }

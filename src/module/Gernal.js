@@ -9,7 +9,7 @@ const SOCIALS = {
     linkedin: "https://www.linkedin.com/company/solutionfest",
     facebook: "https://www.facebook.com/solutionfestpk/",
     twitter: "https://twitter.com/solutionfest",
-    devpost: "https://forms.gle/8THSgXazwNZxHSi66",
+    devpost: "https://bit.ly/JoinSolutionFest",
     email: "mailto:sponsors@solutionfest.tech",
     mail: "sponsors@solutionfest.tech"
 };
