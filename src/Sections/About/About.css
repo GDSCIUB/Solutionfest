@@ -57,19 +57,10 @@
   font-size: 18px;
   line-height: 1.6;
 }
-.hackathon_judges {
-  text-align: center;
-}
-.hackathon_judges h2 {
-  font-size: 48px;
-  font-weight: 700;
-  padding-top: 50px;
-}
 .hackathon_mentors {
   text-align: center;
 }
-.hackathon_mentors h2 {
-  font-size: 48px;
+.hackathon_mentors h1 {
   font-weight: 700;
   padding-top: 50px;
 }
@@ -104,6 +95,38 @@
 .hackathon_workshops {
   text-align: center;
   padding-top: 50px;
+}
+.workshop_schedule {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+.workshop {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: #181d31;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.ws {
+  margin-right: 20px;
+}
+.workshop_title {
+  font-weight: bold;
+  color: #ed58ff;
+}
+.workshop_speaker {
+  font-size: 18px;
+}
+.workshop_details {
+  font-size: 16px;
+  color: #9adee7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Mobile View*/
@@ -152,10 +175,7 @@
   .hackathon_platform {
     width: 300px;
   }
-  .hackathon_judges h2 {
-    font-size: 26px;
-  }
-  .hackathon_mentors h2 {
+  .hackathon_mentors h1 {
     font-size: 26px;
   }
   .hackathon_platform h1 {
@@ -166,5 +186,9 @@
   }
   .hackathon_workshops > h1 {
     font-size: 26px;
+  }
+  .workshop_schedule {
+    display: flex;
+    flex-direction: column;
   }
 }
