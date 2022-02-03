@@ -128,6 +128,30 @@
   justify-content: space-between;
   align-items: center;
 }
+.solutionfest_speakers {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px 220px;
+  justify-content: center;
+}
+.speaker {
+  background-color: #181d31;
+  width: 200px;
+  border-radius: 20px;
+}
+.speaker_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+.speaker_name {
+  font-size: 18px;
+  padding: 10px;
+}
+.speaker_desc {
+  padding-bottom: 10px;
+  color: #ed58ff;
+}
 
 /* Mobile View*/
 @media only screen and (max-width: 450px) {
@@ -142,7 +166,7 @@
     margin-top: 50px;
   }
   .about_head {
-    width: 300px;
+    width: calc(100vw - 50px);
     margin-right: 0px;
   }
   .about_head h2 {
@@ -162,7 +186,6 @@
     flex-direction: column;
   }
   .theme_head {
-    width: 300px;
     margin-top: 50px;
     margin-right: 0px;
   }
@@ -170,7 +193,8 @@
     font-size: 26px;
   }
   .theme_img img {
-    width: 300px;
+    width: 340px;
+    margin-top: 30px;
   }
   .hackathon_platform {
     width: 300px;
@@ -190,5 +214,22 @@
   .workshop_schedule {
     display: flex;
     flex-direction: column;
+  }
+  .workshop {
+    margin: 10px 0px;
+  }
+  .solutionfest_speakers {
+    grid-template-columns: 175px 175px;
+  }
+  .speaker {
+    width: 165px;
+    margin-bottom: 10px;
+  }
+  .speaker_img {
+    width: 165px;
+    height: 165px;
+  }
+  .speaker_name {
+    padding: 10px 5px;
   }
 }

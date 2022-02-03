@@ -4,6 +4,13 @@ import logo from '../../assets/logo.png';
 import sdgWheel from '../../assets/sdg-wheel.png';
 import { EVENT } from '../../module/Gernal';
 import { SOCIALS } from '../../module/Gernal';
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import HufsaMunawar from '../../assets/Speakers/Hufsa-Munawar.jpg';
+import SaadHamid from '../../assets/Speakers/saad-hamid.jpg';
+import WajahatKarim from '../../assets/Speakers/wajahat-karim.jpeg';
+import WaleedArshad from '../../assets/Speakers/Waleed Arshad.jpg';
+import EricBhatti from '../../assets/Speakers/Eric Bhatti.jpg';
 import './About.css';
 
 const About = () => {
@@ -238,7 +245,58 @@ const About = () => {
             </div>
             <div className='hackthon_speakers'>
                 <h1>Speakers</h1>
-                <p>Will be Announced Soon!</p>
+                <div className='solutionfest_speakers'>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={HufsaMunawar} alt="" />
+                        <p className='speaker_name'>
+                            Hufsa Munawar&nbsp;
+                            <a href="https://www.linkedin.com/in/hmunawar/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Community Manager, Developer Relations at Google</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={SaadHamid} alt="" />
+                        <p className='speaker_name'>
+                            Saad Hamid&nbsp;
+                            <a href="https://www.linkedin.com/in/saadhamid/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>App Growth Manager at Google</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={WajahatKarim} alt="" />
+                        <p className='speaker_name'>
+                            Wajahat Karim&nbsp;
+                            <a href="https://www.linkedin.com/in/wajahatkarim" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Google Developer Expert - Android</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={WaleedArshad} alt="" />
+                        <p className='speaker_name'>
+                            Waleed Arshad&nbsp;
+                            <a href="https://www.linkedin.com/in/waleed006/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Google Developer Expert - Flutter</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={EricBhatti} alt="" />
+                        <p className='speaker_name'>
+                            Eric Bhatti&nbsp;
+                            <a href="https://www.linkedin.com/in/ericbhatti/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>VP Engineering at Sastaticket.pk | GDE Firebase</p>
+                    </div>
+                </div>
             </div>
             <div className='hackathon_mentors'>
                 <h1>Mentors</h1>
