@@ -40,13 +40,22 @@
 .community_partners > h2 {
   font-size: 36px;
 }
-.dimond_sponsors {
-  background-color: white;
-  padding: 100px;
+.diamond_sponsors > h3 {
+  margin: 30px;
+  font-size: 26px;
 }
-.sponsor_div > img {
-  padding: 200px;
-  width: 200px;
+.sponsors_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsors_div > div {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+}
+.sponsors_div > div > a > img {
+  width: 400px;
 }
 /* Mobile View*/
 @media only screen and (max-width: 425px) {
@@ -74,5 +83,11 @@
   }
   .community_partners > h2 {
     font-size: 28px;
+  }
+  .sponsors_div {
+    flex-direction: column;
+  }
+  .sponsors_div > div > a > img {
+    width: 300px;
   }
 }
