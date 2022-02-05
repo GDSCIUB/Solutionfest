@@ -1,9 +1,9 @@
 import React from 'react';
 import cover from '../../assets/main-page-cover.png';
 import SocialLinks from '../../components/SocialLinks/SocialLinks';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
-import DevfolioLogo from '../../assets/Devfolio_Logo-White.png';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+// import DevfolioLogo from '../../assets/Devfolio_Logo-White.png';
 import ReactTypingEffect from 'react-typing-effect';
 import { SOCIALS, EVENT } from '../../module/Gernal';
 
@@ -28,14 +28,14 @@ const Home = () => {
                 <div className='home_buttons'>
                     <a href={SOCIALS.devpost} rel="noreferrer" target='_blank'>
                         <button className='home_button_devfolio'>
-                            <img src={DevfolioLogo} alt="" />&nbsp;Participate - Apply Now
+                            Participate - Apply Now
                         </button>
                     </a>
-                    <a href={SOCIALS.discord} rel="noreferrer" target="_blank">
+                    {/* <a href={SOCIALS.discord} rel="noreferrer" target="_blank">
                         <button className='home_button_discord'>
                             <FontAwesomeIcon icon={faDiscord} /> Join Our Discord Server
                         </button>
-                    </a>
+                    </a> */}
                     <SocialLinks />
                 </div>
             </div>

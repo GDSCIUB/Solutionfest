@@ -14,7 +14,7 @@ const data = {
 
         { question: "What are the United Nations 17 Sustainable Development Goals?", answer: "Created by the United Nations in 2015 to be achieved by 2030, the 17 Sustainable Development Goals (SDGs) agreed upon by all 193 United Nations Member States aim to end poverty, ensure prosperity, and protect the planet. Check out: https://www.un.org/sustainabledevelopment/sustainable-development-goals/" },
 
-        { question: "Do I need to pay any money?", answer: "Absolutely not! our event is free and open for all, if incase anyone asks for moeny you can dm any of our moderator." },
+        { question: "Do I need to pay any money?", answer: "Absolutely not! Our event is free and open for all, Incase if someone asks for moeny you can DM any of our moderator." },
 
         { question: "I don't have a team to participate? ", answer: "You don't need one, prior to our event in discord you will meet many hackers exactly like you and join to form a team, if not you can participate alone." },
 

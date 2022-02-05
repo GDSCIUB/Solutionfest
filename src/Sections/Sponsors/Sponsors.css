@@ -40,7 +40,14 @@
 .community_partners > h2 {
   font-size: 36px;
 }
-
+.dimond_sponsors {
+  background-color: white;
+  padding: 100px;
+}
+.sponsor_div > img {
+  padding: 200px;
+  width: 200px;
+}
 /* Mobile View*/
 @media only screen and (max-width: 425px) {
   .sponsors_head {
