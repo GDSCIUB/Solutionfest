@@ -110,9 +110,7 @@
   font-size: 20px;
   border-radius: 10px;
   margin: 10px;
-}
-.ws {
-  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .workshop_title {
   font-weight: bold;
@@ -138,6 +136,9 @@
   background-color: #181d31;
   width: 200px;
   border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .speaker_img {
   width: 200px;
@@ -152,7 +153,23 @@
   padding-bottom: 10px;
   color: #ed58ff;
 }
-
+.a2cldr {
+  width: auto;
+  color: white;
+  height: auto;
+}
+.a2cldr .a2cldr-btn {
+  width: auto;
+  height: auto;
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+.a2cldr-outlook {
+  display: none;
+}
+.a2cldr-yahoo {
+  display: none;
+}
 /* Mobile View*/
 @media only screen and (max-width: 450px) {
   .about {
@@ -231,5 +248,8 @@
   }
   .speaker_name {
     padding: 10px 5px;
+  }
+  .a2cldr-btn {
+    font-size: 14px !important;
   }
 }

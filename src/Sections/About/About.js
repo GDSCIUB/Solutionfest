@@ -11,9 +11,32 @@ import SaadHamid from '../../assets/Speakers/saad-hamid.jpg';
 import WajahatKarim from '../../assets/Speakers/wajahat-karim.jpeg';
 import WaleedArshad from '../../assets/Speakers/Waleed Arshad.jpg';
 import EricBhatti from '../../assets/Speakers/Eric Bhatti.jpg';
+import * as Add2Calendar from "add2calendar";
+import 'add2calendar/css/add2calendar.css';
+
 import './About.css';
 
+class Add2CalendarComponent extends React.Component {
+    componentDidMount() {
+        const Session1 = new Add2Calendar({
+            title: 'Solution Challange - Information Session',
+            start: 'Feburary 21, 2022 19:00',
+            end: 'Feburary 21, 2022 20:00',
+            location: 'https://gdsc.community.dev/j/zdsjwhba7byy3/',
+            description: "We've formed an alliance with some eminent names who are eager to share their own experiences and knowledge with the rest of us! SolutionFest gives you the chance to listen and learn with all of them! We proudly present to you our first speaker, Hufsa Munwar, who will conduct a virtual introductory session on Solution Challenge. She is a community manager, developer relations at Google. She always looks at things from new angles and is ready to delve into previously unexplored realms. An opportunity is knocking at your door to learn from her, So join us tomorrow for the introduction session. Date & Time: 21 Feb 2022 | 7 PM | Monday Register Now: http://bit.ly/JoinSolutionFest"
+        })
+        Session1.createWidget('#single-normal')
+    }
+
+    render() {
+        return (
+            <div id="single-normal"></div>
+        );
+    }
+}
+
 const About = () => {
+
     return (
         <div className='about' id='About'>
             <div className='about_sec'>
@@ -48,6 +71,8 @@ const About = () => {
             </div>
             <div className='hackathon_workshops'>
                 <h1>Sessions & Workshops</h1>
+
+                {/* https://gdsc.community.dev/j/zdsjwhba7byy3/ */}
                 <div className='workshop_schedule'>
                     <div className='workshop'>
                         <div className='workshop_name ws'>
@@ -58,6 +83,9 @@ const About = () => {
                             <div>
                                 <p className='workshop_date'>Date: 21 Feb 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
+                            </div>
+                            <div>
+                                <Add2CalendarComponent />
                             </div>
                         </div>
                     </div>
