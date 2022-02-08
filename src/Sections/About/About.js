@@ -7,10 +7,19 @@ import { SOCIALS } from '../../module/Gernal';
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HufsaMunawar from '../../assets/Speakers/Hufsa-Munawar.jpg';
-import SaadHamid from '../../assets/Speakers/saad-hamid.jpg';
+import SaadHamid from '../../assets/Speakers/Saad Hamid.jpeg';
 import WajahatKarim from '../../assets/Speakers/wajahat-karim.jpeg';
-import WaleedArshad from '../../assets/Speakers/Waleed Arshad.jpg';
+import WaleedArshad from '../../assets/Speakers/Waleed Arshad.jpeg';
 import EricBhatti from '../../assets/Speakers/Eric Bhatti.jpg';
+import AimanSaeed from '../../assets/Speakers/Aiman Saeed.jpeg';
+import AdilShehzad from '../../assets/Speakers/Adil Shehzad.jpg';
+import Aqsakausar from '../../assets/Speakers/Aqsa kausar.jpeg';
+import HiraTariq from '../../assets/Speakers/Hira Tariq.jpeg';
+import MuhammadAsimKhaskheli from '../../assets/Speakers/Muhammad Asim Khaskheli.jpg';
+import MuhammadBinMasood from '../../assets/Speakers/Muhammad Bin Masood.jpeg';
+import OsamaRajput from '../../assets/Speakers/Osama Rajput.jpeg';
+import SakinaAbbas from '../../assets/Speakers/Sakina Abbas.jpeg';
+import TalalAthar from '../../assets/Speakers/Talal Athar.jpeg';
 import * as Add2Calendar from "add2calendar";
 import 'add2calendar/css/add2calendar.css';
 
@@ -70,9 +79,10 @@ const About = () => {
                 </div>
             </div>
             <div className='hackathon_workshops'>
-                <h1>Sessions & Workshops</h1>
+                <div id='Workshops'>
+                    <h1>Sessions & Workshops</h1>
+                </div>
 
-                {/* https://gdsc.community.dev/j/zdsjwhba7byy3/ */}
                 <div className='workshop_schedule'>
                     <div className='workshop'>
                         <div className='workshop_name ws'>
@@ -272,7 +282,9 @@ const About = () => {
                 </div>
             </div>
             <div className='hackthon_speakers'>
-                <h1>Speakers</h1>
+                <div id='speakers'>
+                    <h1>Speakers</h1>
+                </div>
                 <div className='solutionfest_speakers'>
                     <div className='speaker'>
                         <img className='speaker_img' src={HufsaMunawar} alt="" />
@@ -323,6 +335,96 @@ const About = () => {
                             </a>
                         </p>
                         <p className='speaker_desc'>VP Engineering at Sastaticket.pk | GDE Firebase</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={AimanSaeed} alt="" />
+                        <p className='speaker_name'>
+                            Aiman Saeed&nbsp;
+                            <a href="https://www.linkedin.com/in/aimansaeed/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Allianz | ESMT | OYW Ambassador | Google #IamRemarkable</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={AdilShehzad} alt="" />
+                        <p className='speaker_name'>
+                            Adil Shehzad&nbsp;
+                            <a href="https://www.linkedin.com/in/adilshehzad7/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>DevOps Engineer @Strategic Systems International | GitHub Campus Expert</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={Aqsakausar} alt="" />
+                        <p className='speaker_name'>
+                            Aqsa Kausar&nbsp;
+                            <a href="https://www.linkedin.com/in/aqsa-kausar/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Tech Lead (ML) at Red Buffer, Google Developer Expert (ML)</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={HiraTariq} alt="" />
+                        <p className='speaker_name'>
+                            Hira Tariq&nbsp;
+                            <a href="https://www.linkedin.com/in/hirat97/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Building Communities @NICK | GDG Kolachi | Assembly F</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={MuhammadAsimKhaskheli} alt="" />
+                        <p className='speaker_name'>
+                            Asim Khaskheli&nbsp;
+                            <a href="https://www.linkedin.com/in/asim-khaskheli/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Associate Product Manager @OneScreen | Founder & President Hack Club NUST</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={MuhammadBinMasood} alt="" />
+                        <p className='speaker_name'>
+                            Muhammad Bin Masood&nbsp;
+                            <a href="https://www.linkedin.com/in/muhammadbinmasood/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Training and Development Lead @Airlift Technologies</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={OsamaRajput} alt="" />
+                        <p className='speaker_name'>
+                            Osama Rajput&nbsp;
+                            <a href="https://www.linkedin.com/in/rajputosama/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Artificial Intelligence Engineer @NayaPay</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={SakinaAbbas} alt="" />
+                        <p className='speaker_name'>
+                            Sakina Abbas&nbsp;
+                            <a href="https://www.linkedin.com/in/sakina-abbas/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>ReacTree CEO & Co-Founder | Google Developer Expert Flutter</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={TalalAthar} alt="" />
+                        <p className='speaker_name'>
+                            Talal Athar&nbsp;
+                            <a href="https://www.linkedin.com/in/talalathar/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Senior Product Designer @Oraan & YouTuber</p>
                     </div>
                 </div>
             </div>
