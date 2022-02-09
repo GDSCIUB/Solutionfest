@@ -17,9 +17,19 @@ import Aqsakausar from '../../assets/Speakers/Aqsa kausar.jpeg';
 import HiraTariq from '../../assets/Speakers/Hira Tariq.jpeg';
 import MuhammadAsimKhaskheli from '../../assets/Speakers/Muhammad Asim Khaskheli.jpg';
 import MuhammadBinMasood from '../../assets/Speakers/Muhammad Bin Masood.jpeg';
+import ShahzebKazmi from '../../assets/Speakers/Shahzeb Kazmi.jpg';
 import OsamaRajput from '../../assets/Speakers/Osama Rajput.jpeg';
 import SakinaAbbas from '../../assets/Speakers/Sakina Abbas.jpeg';
 import TalalAthar from '../../assets/Speakers/Talal Athar.jpeg';
+import KashifTaj from '../../assets/Mentors/Kashif Taj.jpg';
+import MuhammadHamza from '../../assets/Mentors/Muhammad Hamza.jpg';
+import EmadEhsan from '../../assets/Mentors/Emad Ehsan.jpg';
+import SabaKalsoom from '../../assets/Mentors/Saba Kalsoom.jpg';
+import NahyanFarooq from '../../assets/Mentors/Nahyan Farooq.jpg';
+import AmmarRaja from '../../assets/Mentors/Ammar A. Raja.jpg';
+import HuzaifaHabib from '../../assets/Mentors/Huzaifa Habib.jpg';
+import OmarAbedin from '../../assets/Mentors/Omar Abedin.jpg';
+import CyniaEjaz from '../../assets/Mentors/Cynia Ejaz.jpg';
 import * as Add2Calendar from "add2calendar";
 import 'add2calendar/css/add2calendar.css';
 
@@ -397,6 +407,16 @@ const About = () => {
                         <p className='speaker_desc'>Training and Development Lead @Airlift Technologies</p>
                     </div>
                     <div className='speaker'>
+                        <img className='speaker_img' src={ShahzebKazmi} alt="Shahzeb Kazmi" />
+                        <p className='speaker_name'>
+                            Shahzeb Kazmi&nbsp;
+                            <a href="https://www.linkedin.com/in/shahzebkazmi/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>Product Designer | Design Community Advocate</p>
+                    </div>
+                    <div className='speaker'>
                         <img className='speaker_img' src={OsamaRajput} alt="" />
                         <p className='speaker_name'>
                             Osama Rajput&nbsp;
@@ -429,8 +449,191 @@ const About = () => {
                 </div>
             </div>
             <div className='hackathon_mentors'>
-                <h1>Mentors</h1>
-                <p>Will be Announced Soon!</p>
+                <div id='Mentors'>
+                    <h1>Mentors</h1>
+                </div>
+                <div className='solutionfest_mentors'>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={HufsaMunawar} alt="Hufsa Munawar" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Ideas & Concepts</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Hufsa Munawar</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/hmunawar/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Community Manager, Developer Relations at Google
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={KashifTaj} alt="Kashif Taj" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Technology</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Kashif Taj</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/kaxhiftaj/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                CEO @Techease
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={MuhammadHamza} alt="Muhammad Hamza" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Technology</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Muhammad Hamza</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/mhmzdev/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Associate Software Engineer @Sastaticket.pk
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={EmadEhsan} alt="Emad Ehsan" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Technology</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Emad Ehsan</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/emadehsan/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Google Developer Expert | Co-Founder Traverous
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={SabaKalsoom} alt="Saba Kalsoom" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Team Building</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Saba Kalsoom</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/sabakalsoom/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Community and Partnerships Lead @COLABS
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={NahyanFarooq} alt="Nahyan Farooq" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Idea Discussion</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Nahyan Farooq</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/nehyan26/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Chief Design Officer @QriosityNet | MIT Innovative Leader | Edupreneur
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={AmmarRaja} alt="Ammar Raja" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Idea Discussion</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Ammar Raja</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/ammarraja/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Decision Scientist | Academic | Analytics | Data Governance | AI | Data Strategist
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={HuzaifaHabib} alt="Huzaifa Habib" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic'>Idea Discussion</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Huzaifa Habib</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/huzaifa-habib/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Community Manager Associate @Turing.com
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={OmarAbedin} alt="Omar Abedin" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic pp'>Pitching & Presentation</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Omar Abedin</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/omarabedin/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Project Director @NIC Karachi | Founder @PakTekHub | VC @GreenRisingFund
+                            </p>
+                        </div>
+                    </div>
+                    <div className='mentor'>
+                        <div className='mentor_img'>
+                            <img className='mentor_image' src={CyniaEjaz} alt="Cynia Ejaz" />
+                        </div>
+                        <div className='mentor_detail'>
+                            <h3 className='mentor_topic pp'>Pitching & Presentation</h3>
+                            <hr />
+                            <div className='mentor_name'>
+                                <h4>Cynia Ejaz</h4>&nbsp;
+                                <a href="https://www.linkedin.com/in/cyniaejaz/" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} />
+                                </a>
+                            </div>
+                            <p className='mentor_desc'>
+                                Entrepreneur | Community Builder | Startup Growth
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className='hackathon_platform'>
                 <h1>Join Our Discord Server</h1>

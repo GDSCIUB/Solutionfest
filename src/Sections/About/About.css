@@ -60,9 +60,8 @@
 .hackathon_mentors {
   text-align: center;
 }
-.hackathon_mentors h1 {
+.hackathon_mentors > #Mentors > h1 {
   font-weight: 700;
-  padding-top: 50px;
 }
 .hackathon_platform {
   text-align: center;
@@ -113,7 +112,8 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #Workshops,
-#speakers {
+#speakers,
+#Mentors {
   width: 360px;
   height: 70px;
   background: #a01254;
@@ -143,6 +143,9 @@
 #speakers {
   margin-left: -130px;
 }
+#Mentors {
+  margin-left: -180px;
+}
 .solutionfest_speakers {
   padding: 50px 0px;
   display: grid;
@@ -159,7 +162,8 @@
   margin-bottom: 20px;
   transition: all 0.5s;
 }
-.speaker:hover {
+.speaker:hover,
+.mentor:hover {
   transform: scale(1.1);
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
@@ -181,6 +185,48 @@
 }
 .speaker_desc {
   padding: 0px 10px 10px 10px;
+  color: #ca58ff;
+}
+.solutionfest_mentors {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+.mentor {
+  background-color: #181d31;
+  display: flex;
+  border-radius: 20px;
+  text-align: left;
+  margin: 10px;
+  transition: all 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.mentor_img {
+  height: 200px;
+}
+.mentor_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px 0px 0px 20px;
+}
+.mentor_detail {
+  padding: 20px;
+}
+.mentor_topic {
+  font-size: 24px;
+}
+.pp {
+  font-size: 20px;
+}
+.mentor_name {
+  display: flex;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.mentor_desc {
   color: #ca58ff;
 }
 .a2cldr {
@@ -256,7 +302,8 @@
     font-size: 26px;
   }
   #Workshops,
-  #speakers {
+  #speakers,
+  #Mentors {
     margin-left: -30px;
     width: 300px;
     height: 60px;
@@ -284,6 +331,22 @@
   }
   .speaker_name {
     padding: 10px 5px;
+  }
+  .solutionfest_mentors {
+    display: flex;
+    flex-direction: column;
+  }
+  .mentor {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .mentor_img {
+    height: 300px;
+  }
+  .mentor_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
   }
   .a2cldr-btn {
     font-size: 14px !important;
