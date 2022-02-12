@@ -246,6 +246,13 @@
 .a2cldr-yahoo {
   display: none;
 }
+.WatchSession > a {
+  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 2px solid white;
+}
+
 /* Mobile View*/
 @media only screen and (max-width: 450px) {
   .about {

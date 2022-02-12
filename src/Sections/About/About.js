@@ -21,6 +21,8 @@ import ShahzebKazmi from '../../assets/Speakers/Shahzeb Kazmi.jpg';
 import OsamaRajput from '../../assets/Speakers/Osama Rajput.jpeg';
 import SakinaAbbas from '../../assets/Speakers/Sakina Abbas.jpeg';
 import TalalAthar from '../../assets/Speakers/Talal Athar.jpeg';
+import SharjeelYunus from '../../assets/Speakers/Sharjeel Yunus.jpg';
+import AlinaSohaib from '../../assets/Speakers/Alina Sohaib.jpg';
 import KashifTaj from '../../assets/Mentors/Kashif Taj.jpg';
 import MuhammadHamza from '../../assets/Mentors/Muhammad Hamza.jpg';
 import EmadEhsan from '../../assets/Mentors/Emad Ehsan.jpg';
@@ -38,11 +40,11 @@ import './About.css';
 class Add2CalendarComponent extends React.Component {
     componentDidMount() {
         const Session1 = new Add2Calendar({
-            title: 'Solution Challange - Information Session',
-            start: 'Feburary 21, 2022 19:00',
-            end: 'Feburary 21, 2022 20:00',
-            location: 'https://gdsc.community.dev/j/zdsjwhba7byy3/',
-            description: "We've formed an alliance with some eminent names who are eager to share their own experiences and knowledge with the rest of us! SolutionFest gives you the chance to listen and learn with all of them! We proudly present to you our first speaker, Hufsa Munwar, who will conduct a virtual introductory session on Solution Challenge. She is a community manager, developer relations at Google. She always looks at things from new angles and is ready to delve into previously unexplored realms. An opportunity is knocking at your door to learn from her, So join us tomorrow for the introduction session. Date & Time: 21 Feb 2022 | 7 PM | Monday Register Now: http://bit.ly/JoinSolutionFest"
+            title: 'Finding a Community Problem | SolutionFest',
+            start: 'Feburary 28, 2022 19:00',
+            end: 'Feburary 28, 2022 20:00',
+            location: 'https://meet.google.com/xbz-qapp-qij',
+            description: "Finding a Community Problem | SolutionFest Speaker: Aiman Saeed Google Meet Link: https://meet.google.com/xbz-qapp-qij"
         })
         Session1.createWidget('#single-normal')
     }
@@ -105,19 +107,24 @@ const About = () => {
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
                             </div>
                             <div>
-                                <Add2CalendarComponent />
+                                <div className='WatchSession'>
+                                    <a href="https://youtu.be/hza2jo_JmUw" target="_blank" rel="noreferrer">Watch Session</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className='workshop'>
                         <div className='workshop_name ws'>
                             <p className='workshop_title'>UNDP: Sustainable Goals Session</p>
-                            <p className='workshop_speaker'>Speaker: TBA</p>
+                            <p className='workshop_speaker'>Speaker: Sharjeel & Alina</p>
                         </div>
                         <div className='workshop_details ws'>
                             <div>
                                 <p className='workshop_date'>Date: 25 Feb 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
+                            </div>
+                            <div className='WatchSession'>
+                                <a href="https://youtu.be/H1zTELXc7og" target="_blank" rel="noreferrer">Watch Session</a>
                             </div>
                         </div>
                     </div>
@@ -130,6 +137,9 @@ const About = () => {
                             <div>
                                 <p className='workshop_date'>Date: 28 Feb 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
+                            </div>
+                            <div>
+                                <Add2CalendarComponent />
                             </div>
                         </div>
                     </div>
@@ -196,7 +206,7 @@ const About = () => {
                     <div className='workshop'>
                         <div className='workshop_name ws'>
                             <p className='workshop_title'>UI/UX Session </p>
-                            <p className='workshop_speaker'>Speaker: TBA</p>
+                            <p className='workshop_speaker'>Speaker: Shahzeb Kazmi</p>
                         </div>
                         <div className='workshop_details ws'>
                             <div>
@@ -445,6 +455,26 @@ const About = () => {
                             </a>
                         </p>
                         <p className='speaker_desc'>Senior Product Designer @Oraan & YouTuber</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={SharjeelYunus} alt="Sharjeel Yunus" />
+                        <p className='speaker_name'>
+                            Sharjeel Yunus&nbsp;
+                            <a href="https://www.linkedin.com/in/sharjeel-yunus/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>GDSC IUB Lead @Google Developers</p>
+                    </div>
+                    <div className='speaker'>
+                        <img className='speaker_img' src={AlinaSohaib} alt="Alina Shoaib" />
+                        <p className='speaker_name'>
+                            Alina Shoaib&nbsp;
+                            <a href="https://www.linkedin.com/in/alina-s-b7913618b/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                        </p>
+                        <p className='speaker_desc'>GDSC NUST Lead @Google Developers</p>
                     </div>
                 </div>
             </div>
