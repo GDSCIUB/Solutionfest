@@ -10,7 +10,7 @@
 .teamCards {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: auto auto auto auto;
 }
 .teamCard {
   margin: 10px;
@@ -33,7 +33,7 @@
   font-size: 25px;
 }
 .team__details > h2 {
-  font-size: 22px;
+  font-size: 18px;
 }
 .teamCard > .MuiAvatar-root {
   height: 200px;
@@ -43,6 +43,13 @@
 .team__social > a {
   color: white;
   padding: 10px;
+}
+.team_wrapper {
+  margin-top: 50px;
+}
+.team_wrapper > h2 {
+  font-size: 35px;
+  text-decoration: underline;
 }
 
 /* Mobile View*/
