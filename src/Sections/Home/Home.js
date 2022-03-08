@@ -22,7 +22,7 @@ const Home = () => {
                         />
                     </div>
                     <h1>{EVENT.name}.</h1>
-                    <p>Virtual Hackathon · {EVENT.dates} · <span>GDSC Pakistan</span></p>
+                    <p>Training and Mentorship · {EVENT.dates} · <span>GDSC Pakistan</span></p>
                 </div>
                 <div className='home_buttons'>
                     <a href={SOCIALS.devpost} rel="noreferrer" target='_blank'>

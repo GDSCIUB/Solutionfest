@@ -40,11 +40,11 @@ import './About.css';
 class Add2CalendarComponent extends React.Component {
     componentDidMount() {
         const Session1 = new Add2Calendar({
-            title: 'Finding a Community Problem | SolutionFest',
-            start: 'Feburary 28, 2022 19:00',
-            end: 'Feburary 28, 2022 20:00',
+            title: 'UI/UX Session | SolutionFest',
+            start: 'March 10, 2022 19:00',
+            end: 'March 10, 2022 20:00',
             location: 'https://meet.google.com/xbz-qapp-qij',
-            description: "Finding a Community Problem | SolutionFest Speaker: Aiman Saeed Google Meet Link: https://meet.google.com/xbz-qapp-qij"
+            description: "UI/UX | SolutionFest | Speaker: Shahzeb Kazmi | Google Meet Link: https://meet.google.com/xbz-qapp-qij"
         })
         Session1.createWidget('#single-normal')
     }
@@ -63,8 +63,8 @@ const About = () => {
             <div className='about_sec'>
                 <div className='about_head'>
                     <h2>{EVENT.name}</h2>
-                    <p>{EVENT.name} is a student-run virtual event consisting of a 15 Days hackathon with mentorship from experts and fun challenges.</p>
-                    <p>It will bring student developers to compete and develop creative solutions to real-world problems based on United Nations’ Sustainable goals. The hackathon is designed to solve local community problems, spark innovation, attract and educate new talent in accordance with the 2022 Solution Challenge.</p>
+                    <p>{EVENT.name} is a student-run virtual event consisting of a 15 Days training and mentorship event from experts and fun challenges.</p>
+                    <p>It will bring student developers to compete and develop creative solutions to real-world problems based on United Nations’ Sustainable goals. The event is designed to solve local community problems, spark innovation, attract and educate new talent in accordance with the 2022 Solution Challenge.</p>
                 </div>
                 <div className='about_img'>
                     <img src={cover1} alt="" />
@@ -77,7 +77,7 @@ const About = () => {
                     </div>
                     <div className='hackathon_about_head'>
                         <h3>{EVENT.name} | Google Solution Challenge</h3>
-                        <p>Held in association with the 2022 Google Solution challenge {EVENT.name} is the student-run hackathon by the GDSC Pakistan. We believe that remarkable developers, designers, and innovators can help us solve challenges to end poverty, ensure prosperity, and protect the planet. The diversity and talent of the participating developers will contribute greatly to the success of our event. We want to establish a tech ecosystem and provide a platform for students to present their ideas of the future.</p>
+                        <p>Held in association with the 2022 Google Solution challenge {EVENT.name} is the student-run training and mentorship event by the GDSC Pakistan. We believe that remarkable developers, designers, and innovators can help us solve challenges to end poverty, ensure prosperity, and protect the planet. The diversity and talent of the participating developers will contribute greatly to the success of our event. We want to establish a tech ecosystem and provide a platform for students to present their ideas of the future.</p>
                     </div>
                 </div>
             </div>
@@ -138,8 +138,8 @@ const About = () => {
                                 <p className='workshop_date'>Date: 28 Feb 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
                             </div>
-                            <div>
-                                <Add2CalendarComponent />
+                            <div className='WatchSession'>
+                                <a href="https://youtu.be/TpHFdI2XJXs" target="_blank" rel="noreferrer">Watch Session</a>
                             </div>
                         </div>
                     </div>
@@ -152,6 +152,9 @@ const About = () => {
                             <div>
                                 <p className='workshop_date'>Date: 02 March 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
+                            </div>
+                            <div className='WatchSession'>
+                                <a href="https://youtu.be/2-fIxq8tmYk" target="_blank" rel="noreferrer">Watch Session</a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +178,7 @@ const About = () => {
                         <div className='workshop_details ws'>
                             <div>
                                 <p className='workshop_date'>Date: 05 March 2022</p>
-                                <p className='workshop_time'>Time: 12:00 - 1:00 PM</p>
+                                <p className='workshop_time'>Time: 6:00 - 7:00 PM</p>
                             </div>
                         </div>
                     </div>
@@ -212,6 +215,9 @@ const About = () => {
                             <div>
                                 <p className='workshop_date'>Date: 10 March 2022</p>
                                 <p className='workshop_time'>Time: 7:00 - 8:00 PM</p>
+                            </div>
+                            <div>
+                                <Add2CalendarComponent />
                             </div>
                         </div>
                     </div>
